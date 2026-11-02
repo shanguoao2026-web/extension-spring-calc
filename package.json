@@ -1,0 +1,12 @@
+{
+  "name": "extension-spring-calc",
+  "version": "1.0.0",
+  "description": "Body-only helical extension spring design checks",
+  "license": "MIT",
+  "author": "shanguoao2026-web",
+  "type": "module",
+  "bin": { "extension-spring-calc": "dist/cli.js" },
+  "scripts": { "build": "tsc", "test": "npm run build && node test/cli.test.js" },
+  "engines": { "node": ">=18" },
+  "devDependencies": { "@types/node": "^18.19.0", "typescript": "^5.7.0" }
+}
